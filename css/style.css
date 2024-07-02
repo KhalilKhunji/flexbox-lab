@@ -113,8 +113,7 @@ nav button {
 article.card {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    align-content: space-evenly;
+    flex-direction: column;
 }
   
 .card-footer * {
